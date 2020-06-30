@@ -6,7 +6,7 @@ Created on Mon Jun 29 15:26:34 2020
 """
 
 
-from faceMongo.faceMongo import FaceMongo
+import FaceMongo
 from tqdm import tqdm
 
 if __name__=="__main__":
