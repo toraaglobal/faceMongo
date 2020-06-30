@@ -3,4 +3,5 @@ setup.py
 faceMongo_toraaglobal.egg-info/PKG-INFO
 faceMongo_toraaglobal.egg-info/SOURCES.txt
 faceMongo_toraaglobal.egg-info/dependency_links.txt
+faceMongo_toraaglobal.egg-info/requires.txt
 faceMongo_toraaglobal.egg-info/top_level.txt
