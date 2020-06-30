@@ -13,7 +13,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="faceMongo", 
-    version="0.0.5",
+    version="0.0.4",
     author="Tajudeen Abdulazeez",
     author_email="toabdula@syr.edu",
     description="Scrape facebook public page to mongo database",
