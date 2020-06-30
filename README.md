@@ -23,8 +23,9 @@ installed locally.
 The following code will retrive and save the document in your mongo database
 
 ```
-import FaceMongo
-fm = FaceMongo('facebook','localhost',27017) # database, host and port
+from faceMongo import faceMongo
+
+fm = faceMongo.FaceMongo('facebook','localhost',27017) # database, host and port
 fm.fb_page_to_db('donaldtrump',nums= 200) # retrieve 200 pages from donaldtrump page and save it in the database.
 
 ```

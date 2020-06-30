@@ -6,11 +6,11 @@ Created on Mon Jun 29 15:26:34 2020
 """
 
 
-import FaceMongo
+from faceMongo import faceMongo
 from tqdm import tqdm
 
 if __name__=="__main__":
-    fm = FaceMongo('facebook','localhost',27017)
+    fm = faceMongo.FaceMongo('facebook','localhost',27017)
     
     pages = ['donaldtrump','joebiden','senschumer'] # 
     for page in tqdm(pages):
