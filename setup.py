@@ -21,6 +21,9 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/toraaglobal/faceMongo",
     packages=setuptools.find_packages(),
+    install_requires=[
+          'facebook_scraper','pymongo','tqdm',
+      ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
