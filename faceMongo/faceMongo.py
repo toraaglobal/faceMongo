@@ -42,7 +42,7 @@ class FaceMongo:
         self.dbname = dbname.lower().replace('#', '').replace(' ','')
         
         
-    def fb_page_to_db(self, page:str, nums:int):
+    def fb_page_to_db(self, page:str, nums:int=100):
         """
         Get public facebook page and insert it in mongo database
 
@@ -50,7 +50,7 @@ class FaceMongo:
         ----------
         page : str
             The facebook public page handle to scrape
-        nums : int
+        nums : int default 100
             The number of pages to scrape
 
         Returns

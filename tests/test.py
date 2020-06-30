@@ -14,7 +14,7 @@ if __name__=="__main__":
     
     pages = ['donaldtrump','joebiden','senschumer'] # 
     for page in tqdm(pages):
-        fm.fb_page_to_db(page,nums= 200)
+        fm.fb_page_to_db(page)
     
     # load documents from DB
     docs = fm.docs_from_db('joebiden' )
