@@ -64,7 +64,4 @@ class FaceMongo:
         return data 
     
 
-if __name__=='__main__':
-    main()
-    
     
