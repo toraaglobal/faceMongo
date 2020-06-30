@@ -12,7 +12,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="faceMongo-toraaglobal", 
+    name="faceMongo", 
     version="0.0.2",
     author="Tajudeen Abdulazeez",
     author_email="toabdula@syr.edu",

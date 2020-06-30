@@ -1,5 +1,5 @@
 Metadata-Version: 2.1
-Name: faceMongo-toraaglobal
+Name: faceMongo
 Version: 0.0.2
 Summary: Scrape facebook public page to mongo database
 Home-page: https://github.com/toraaglobal/faceMongo

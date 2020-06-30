@@ -11,7 +11,7 @@ Retrieve a collection from mongo database.
 Run the following command in your terminal to install the package
 
 ```
-python -m pip install --index-url https://test.pypi.org/simple/ faceMongo-toraaglobal
+pip install faceMongo
 ```
 ***
 ### Usage
