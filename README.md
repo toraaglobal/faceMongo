@@ -1,18 +1,20 @@
 ***
-# faceMongo
+## faceMongo
 ***
 Scrape facebook public pages and save int in a mongo database as a collection of documents.
 Retrieved collections from mongo database.
 
-
+***
 ### Installattion 
+***
 Run the following command from the terminal
 
 ```
 python -m pip install --index-url https://test.pypi.org/simple/ --no-deps faceMongo-toraaglobal
 ```
-
+***
 ### Usage
+***
 
 To retrive  the facebook pad of `donaldtrump` and save it in `facebook` database in mongo db .
 assuming you have a mongo db installed locally.
@@ -34,7 +36,8 @@ The code below will return the collection of documents in a list
 docs = fm.docs_from_db('donaldtrump' )
 
 ```
-
+***
 ### Licence
-**MIT License**
+***
+MIT License
 
