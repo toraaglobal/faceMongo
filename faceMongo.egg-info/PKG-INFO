@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: faceMongo
-Version: 0.0.2
+Version: 0.0.3
 Summary: Scrape facebook public page to mongo database
 Home-page: https://github.com/toraaglobal/faceMongo
 Author: Tajudeen Abdulazeez
@@ -19,7 +19,7 @@ Description: ***
         Run the following command in your terminal to install the package
         
         ```
-        python -m pip install --index-url https://test.pypi.org/simple/ faceMongo-toraaglobal
+        pip install faceMongo
         ```
         ***
         ### Usage
